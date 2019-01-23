@@ -2,7 +2,6 @@ $(function () {
   'use strict';
 
 
-
   if ($("#welcome").length) {
     let request = new XMLHttpRequest();
 
@@ -203,7 +202,6 @@ $(function () {
     request.open("GET", "https://fe18.azurewebsites.net/api/distributionchart", true);
     request.send();
   }
-
 
   if ($("#sale-report-chart").length) {
     let request = new XMLHttpRequest();
@@ -867,11 +865,5 @@ $(function () {
     request.open("GET", "https://fe18.azurewebsites.net/api/openinvoices", true);
     request.send();
   };
-
-
-
-
-
-
 
 });
