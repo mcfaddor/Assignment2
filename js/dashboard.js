@@ -751,9 +751,6 @@ $(function () {
         bar.animate(.84); // Number from 0.0 to 1.0
       }
 
-
-
-
     }
     request.open("GET", "https://fe18.azurewebsites.net/api/downloads", true);
     request.send();
@@ -781,8 +778,6 @@ $(function () {
           </p>
         </li>`);
         }
-
-
 
       }
 
